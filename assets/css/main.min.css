@@ -1,0 +1,147 @@
+body {
+  background: #253745;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+input,
+input:hover,
+input:active,
+input:focus,
+button,
+button:hover,
+button:active,
+button:focus,
+textarea {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+@media only screen and (min-width: 991px) {
+  .container {
+    width: 1060px;
+  }
+}
+
+#header {
+  background: #1D2F3D;
+  padding: 25px 0;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#header .search-form {
+  background: rgba(0, 0, 0, 0.25);
+  margin-left: 80px;
+  padding: 0 20px 0 50px;
+  position: relative;
+  border-radius: 2px;
+}
+
+#header .search-form:before {
+  content: "\f002";
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  display: block;
+  color: rgba(255, 255, 255, 0.25);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+#header .search-form input {
+  background: 0;
+  border: 0;
+  color: rgba(255, 255, 255, 0.45);
+  height: 50px;
+}
+
+#header .search-form input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+#header .search-form input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+#header .search-form input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+#header .search-form input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+#header .menu .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#header .menu .nav-link:hover, #header .menu .nav-link.active {
+  color: #fff;
+}
+
+#main {
+  margin: 50px 0;
+}
+
+#main .channel-list .empty {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#main .channel-list .col-12 {
+  margin-bottom: 30px;
+}
+
+#main .channel-list .col-12:nth-child(n+6) {
+  margin-bottom: 0;
+}
+
+#main .channel-list .channel {
+  background: rgba(0, 0, 0, 0.25);
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 2px;
+  color: #DBDBDB;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#main .channel-list .channel:hover {
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+
+#main .no-content {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#footer .copyright {
+  color: #DBDBDB;
+  margin: 50px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=main.min.css.map */

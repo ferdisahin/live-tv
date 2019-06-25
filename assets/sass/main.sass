@@ -1,0 +1,109 @@
+@import _rem
+
+=transition($data)
+    transition: all $data ease-in-out
+
+=inputcolor($data)
+    &::-webkit-input-placeholder
+        color: $data
+    &:-ms-input-placeholder
+        color: $data
+    &::placeholder
+        color: $data  
+
+body
+    background: #253745
+    font-size: rem(16px)
+    font-family: 'Roboto', sans-serif
+
+a,
+a:hover,
+a:focus,
+a:active
+    text-decoration: none    
+
+input,
+input:hover,
+input:active,
+input:focus,
+button,
+button:hover,
+button:active,
+button:focus,
+textarea
+    outline: none !important
+    -webkit-box-shadow: none !important        
+    
+@media only screen and (min-width: 991px)
+    .container
+        width: 1060px
+
+#header
+    background: #1D2F3D
+    padding: 25px 0
+    min-height: 100px
+    display: flex
+    align-items: center
+    .logo
+        font-size: rem(24px)
+        text-transform: uppercase
+        color: #fff
+    .search-form
+        background: rgba(0,0,0,.25)
+        margin-left: 80px
+        padding: 0 20px 0 50px
+        position: relative
+        border-radius: 2px
+        &:before
+            content: "\f002"
+            font-family: 'Font Awesome 5 Pro'
+            font-weight: 900
+            position: absolute
+            top: 50%
+            left: 20px
+            display: block
+            color: rgba(255,255,255,.25) 
+            transform: translate(0, -50%)
+        input
+            background: 0
+            border: 0
+            color: rgba(255,255,255,.45)
+            +inputcolor(rgba(255,255,255,.45))
+            height: 50px
+    .menu
+        .nav-link
+            color: rgba(255,255,255,.50)
+            +transition(.3s)
+            &:hover,
+            &.active
+                color: #fff
+
+#main
+    margin: 50px 0
+    .channel-list
+        .empty
+            color: rgba(255,255,255,.50)
+        .col-12
+            margin-bottom: 30px
+            &:nth-child(n+6)
+                margin-bottom: 0
+        .channel
+            background: rgba(0,0,0,.25)
+            display: block
+            height: 60px
+            line-height: 60px
+            text-align: center
+            border-radius: 2px
+            color: #DBDBDB
+            +transition(.3s)
+            &:hover
+                background: rgba(0,0,0,.35)
+                color: #fff
+    .no-content
+        color: rgba(255,255,255,.50)
+
+#footer
+    .copyright
+        color: #DBDBDB
+        margin: 50px 0
+        text-align: center

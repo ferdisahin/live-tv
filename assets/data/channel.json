@@ -1,0 +1,44 @@
+[
+    {
+        "channelName":"TGRT Haber TV",
+        "channelSlug":"tgrt-haber-tv",
+        "channelYT":"fiCK0rfMMBs",
+        "channelCat":"haber"
+    },
+    {
+        "channelName":"TV 100",
+        "channelSlug":"tv-100",
+        "channelYT":"9NMCgLjGVRU",
+        "channelCat":"haber"
+    },
+    {
+        "channelName":"TRT 1",
+        "channelSlug":"trt-1",
+        "channelYT":"DVOgoBnGAs0",
+        "channelCat":"ulusal"
+    },
+    {
+        "channelName":"DMAX",
+        "channelSlug":"dmax",
+        "channelYT":"AXQVvYLwYdE",
+        "channelCat":"spor"
+    },
+    {
+        "channelName":"TLC",
+        "channelSlug":"tlc",
+        "channelYT":"IMy6RvwMJLs",
+        "channelCat":"sinema"
+    },
+    {
+        "channelName":"TVNet",
+        "channelSlug":"tvnet",
+        "channelYT":"QpbSlrC16jo",
+        "channelCat":"haber"
+    },
+    {
+        "channelName":"beIN Sports",
+        "channelSlug":"bein-sports",
+        "channelYT":"jPjIGELEViw",
+        "channelCat":"spor"
+    }
+]
